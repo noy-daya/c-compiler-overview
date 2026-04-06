@@ -369,6 +369,8 @@ CPL-Compiler/
 └── obj/                  # Object files (created during build)
 ```
 
+> **Note:** Source files are kept in a **private repository** to comply with academic integrity policies. Implementation details are available upon request.
+
 ---
 
 ## Build & Execution Guide
