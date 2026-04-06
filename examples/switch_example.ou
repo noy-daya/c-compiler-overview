@@ -1,0 +1,21 @@
+/* program which includes switch and break */
+
+var1, var2: int;
+{
+	input(var1);
+	input(var2);
+
+	switch(var1 + var2)
+	{
+		case 10: output(10);
+		case 20: output(20);
+			break;
+		case 30: output(30);
+			break;
+		default: output(var1);
+			output(var2);
+	}
+	
+	input(var1);
+	input(var2);
+}
