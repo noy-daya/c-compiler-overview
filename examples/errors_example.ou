@@ -1,0 +1,51 @@
+/* ======================== */
+/* possible errors          */
+/* ======================== */
+
+first, second: float;
+a, b: int;
+a: float; /* expecting error- duplicate declaration */
+{
+	break; /*expecting error- break appears not inside while/switch */
+
+	/* ==============*/
+	/* variables     */
+	/* ==============*/
+	output(aa); /* expecting error- variable 'aa' undeclared */
+
+	a = static_cast<int>(c); /* expecting error- variable 'c' is undeclared */
+	a = c;
+
+	/* ==============*/
+	/* casting       */
+	/* ==============*/
+
+	break; /*expecting error- break appears not inside while/switch */
+
+	a = first; /* expecting error- cannot convert float to int */
+	a = 10.4;  /* expecting error- cannot convert float to int */
+	a = static_cast<float>(first); /* expecting error- cannot convert float to int */
+	b = static_cast<float>(a); /* expecting error- cannot convert float to int */
+
+	/* ==============*/
+	/* switch        */
+	/* ==============*/
+
+	switch(first) /* expecting error- switch expression type */
+	{
+		case 1: output(first);
+		case 2: output(second);
+			break;
+		default:
+	}
+
+	switch(a)
+	{
+		case 1: output(first);
+		case 2.0: output(second); /* expecting error- case number type */
+			break;
+		default:
+	}
+
+	break; /*expecting error- break appears not inside while/switch */
+}
