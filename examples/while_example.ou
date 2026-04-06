@@ -1,0 +1,59 @@
+/* program which includes while and break */
+x,y: int;
+i, j: int;
+{
+	input(x);
+	while(x != 4)
+	{
+		input(x);
+	}
+
+	output(111);
+
+	input(x);
+	input(y);
+	while(x != 4)
+	{
+		input(y);
+		while(y != 4)
+		{
+			input(y);
+		}
+		input(x);
+	}
+
+	output(111);
+
+	while(x != 4)
+	{
+		input(x);
+		input(y);
+		while(y != 4)
+		{
+			input(y);
+			if (y == 0)
+			{
+				x = x + 1;
+				break;
+			}
+			else
+				x = x - 1;
+		}
+		input(x);
+	}
+
+	output(111);
+
+	while(i != 4 && i < j)
+	{
+		if (i == 0)
+			j = j + 1;
+		else
+		{
+			j = j - 1;
+			break;
+		}
+	}
+	input(i);
+
+}
