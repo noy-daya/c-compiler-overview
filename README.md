@@ -7,10 +7,11 @@
 ![Bison](https://img.shields.io/badge/tool-Bison-yellow)
 ![Compiler](https://img.shields.io/badge/project-Compiler-green)
 
-> **Disclaimer:** Educational and portfolio purposes only.
-> All original course examples have been adapted to avoid copyright issues.
-> No proprietary content from The Open University of Israel is included.
-> Full compiler source code is maintained **privately** for academic compliance.
+> ⚠️ **Disclaimer**
+> - For educational and portfolio purposes only
+> - All example CPL programs are original and created for this repository
+> - No proprietary content from The Open University of Israel is included
+> - Full compiler source code is maintained **privately** for academic compliance
 
 A fully functional **Single-Pass Compiler** that translates **CPL (Compiler Project Language)** source code (`.ou`) into **Quadruple (Quad)** intermediate representation (`.qud`).
 
