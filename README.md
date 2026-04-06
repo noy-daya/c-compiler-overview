@@ -108,7 +108,7 @@ flowchart TD
     Parser --> ErrorCheck
     ErrorCheck -->|No| Backpatch
     ErrorCheck -->|Yes| Abort
-    Backpatch --> Writeizati
+    Backpatch --> Write
 ```
 ### Explanation:
 
@@ -407,3 +407,6 @@ Removes compiled objects and executable.
 
 ---
 
+## Credits
+
+Developed as part of the **Compilation Course at The Open University of Israel**.
